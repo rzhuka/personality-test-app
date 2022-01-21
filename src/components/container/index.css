@@ -1,0 +1,41 @@
+.container-body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-body .content {
+  background: #e9e9e9;
+  box-shadow: 5px 10px 8px #888888;
+  border-radius: 10px;
+  height: 70%;
+  padding: 2rem;
+}
+.container-body .content .header {
+  height: 40px;
+}
+.container-body .content .header .progress {
+  height: 2rem;
+  font-size: 18px;
+  background: white;
+}
+.container-body .content .body {
+  height: calc(100% - 80px);
+  margin-bottom: 10px;
+}
+
+.container-body .content .footer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container-body .content .footer .button-container button {
+  border: 1px solid #0671b7;
+  color: white;
+  height: 30px;
+  width: 90px;
+  background: #0671b7;
+  border-radius: 5px;
+  /* width: 50%; */
+}
