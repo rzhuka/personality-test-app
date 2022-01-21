@@ -1,0 +1,36 @@
+.result-container {
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+  background: #f9f9f9;
+}
+.result-container .tittle {
+  font-size: 22px;
+  color: #0671b7;
+  font-family: cursive;
+  font-style: italic;
+  font-weight: 600;
+  height: 40px;
+}
+.result-container .description {
+  height: fit-content;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-style: oblique;
+  font-weight: 400;
+  font-family: monospace;
+}
+
+.result-container .footer {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.result-container .footer button {
+  border: 1px solid #0671b7;
+  color: white;
+  height: 30px;
+  background: #0671b7;
+  border-radius: 5px;
+}
