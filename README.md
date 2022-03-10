@@ -1,8 +1,12 @@
-## To start the project
+## Personality test app
+An easy-to-use personality test app that determines whether you are an introvert or an extrovert. The survey contains 5 questions; 
+> :warning: **Please use it only for testing purposes as it has not been defined by psychologists.
 
-In the project directory, you can run:
+ [Start the survey](https://rzhuka.github.io/personality-test-app/)
 
-### `npm start`
 
+
+## To run the project localy 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
